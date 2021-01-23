@@ -1,0 +1,126 @@
+* {
+    color: rgb(25, 68, 63)
+}
+
+@media only screen and (min-width: 500px) {
+    body {
+        background-color: rgba(0, 255, 255, 0.5);
+    }
+  }
+
+#header {
+    font: bold 1cm 'Yusei Magic', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 50px;
+    background-color: darkseagreen;
+    margin: auto;
+}
+
+h1  {
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    background-color: darkseagreen;
+    font-size: 10mm;
+    border-style: solid;
+    border-color:rgb(26, 11, 11);
+    border-width: 2px;
+    border-radius: 50px;
+}
+
+h2, h3 {
+    text-decoration: underline;
+}
+
+div {
+    background-color: rgb(206, 208, 209);
+    width: 300px;
+    border: 7px solid rgb(49, 45, 68);
+    padding: 15px;
+    margin: 10px;
+}
+
+#major {
+    display: inline-block;
+    background-color: lightgrey;
+    width: 90em;
+    border: 7px solid rgb(49, 45, 68);
+    padding: 2ex;
+    margin: 10ch;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px
+}
+
+ul li {
+    padding 2px;
+}
+
+ol {
+    margin: 10px;
+}
+
+ol li {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+hr {
+    border: 10px inset darkseagreen;
+}
+
+form {
+    border: 4px solid black;
+    padding: 15px;
+    margin: 10px;
+    width: 25%;
+}
+
+input[type=text], input[type=tel], input[type=date], select {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=radio] {
+    width: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+}
+
+input[type=submit] {
+    width: 250px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=submit]:active {
+    background-color: blueviolet;
+}
+
+a[href="http://www.chess.com/"], a[href="https://www.youtube.com/"], a[href="https://www.reddit.com/"] {
+    background-color: rgba(166, 168, 31, 0.5);
+}

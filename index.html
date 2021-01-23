@@ -2,16 +2,20 @@
 
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap">
         <title>Colby's User Page</title>
         <meta charset="UTF-8">
     </head>
-    <body>
-        <header>About Me</header>
-        <main>
+    <body class="body">
+        <div id="header">
+            <header>About Me</header>
             <picture>
-                <img src="Colby2.jpg" alt="Colby" width="200" height="200">
+                <img src="media/Colby2.jpg" alt="Colby" width="200" height="200">
             </picture>
-            <h1>Highschool</h1>
+        </div>
+        <main>
+            <h1 id="hs">Highschool</h1>
             <section>
                 <h2>Sports</h2>
                 <div>
@@ -34,27 +38,25 @@
             <h1>College</h1>
             <section>
                 <h2>Major</h2>
-                <div>
-                    <pre>
+                    <pre id="major">
                         My current major is Computer Engineering. I chose this major because I have always had a fascination with technology
                         and didn't really know what I wanted to do with my life after highschool, so this seemed like it would fit me. So 
                         far I am enjoying the courses that I am taking and the people I have met.
                     </pre>
-                </div>
                 <h2>Goals</h2>
                 <div>
                     <ol>
                         <li>Graduate College</li>
                         <li>Get a decent paying job</li>
                         <li>Invest all savings in Bitcoin</li>
-                        <li><img src="stonks.jpg" alt="Stonks" width="200" height="150"></li>
+                        <li><img src="media/stonks.jpg" alt="Stonks" width="200" height="150"></li>
                     </ol>
                 </div>
             </section>
             <hr>
             <h3>Chess Partner Application</h3>
             <figure>
-                <img src="chess.jpeg" width="200" height="150">
+                <img src="media/chess.jpeg" width="200" height="150">
                 <figcaption><i>Queen's Gambit, S1E7</i></figcaption>
             </figure>
             <form>
@@ -88,7 +90,7 @@
                 <input type="date" required>
                 <br>
 
-                <label>Untitled:</label>
+                <label>My Name:</label>
                 <input type="text" required>
                 <br>
                 
